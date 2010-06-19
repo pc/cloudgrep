@@ -45,6 +45,11 @@ def format_results(res)
   fres.join("\n")
 end
 
+def usage
+  $stderr.puts "cloudgrep <expr> [<expr> ...]"
+  $stderr.puts "Grep publicly-available code with Google Codesearch"
+end
+
 if $0 == __FILE__
   exprs = ARGV
   if exprs.empty?
