@@ -47,7 +47,7 @@ end
 
 def usage
   $stderr.puts "cloudgrep <expr> [<expr> ...]"
-  $stderr.puts "Grep publicly-available code with Google Codesearch"
+  $stderr.puts "Grep publicly-available code with Google Code Search"
 end
 
 if $0 == __FILE__

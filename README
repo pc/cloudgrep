@@ -1,0 +1,14 @@
+Cloudgrep searches publicly-available code using Google Code Search
+
+== Examples
+cloudgrep '"= getpid()"'
+
+cloudgrep 'postTweet\([^\)]+\)'
+
+== Installation
+
+sudo gem install xml-simple term-ansicolor
+ln -s `pwd`/cloudgrep/cloudgrep /usr/bin
+
+== Author
+Patrick Collison <patrick@collison.ie>
